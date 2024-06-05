@@ -1,6 +1,4 @@
 # praktikum6_php_ci4
-praktikum6
-
 
 Nama: Ridha Muhammad Rifqi
 
@@ -10,7 +8,7 @@ KELAS: TI.22.A5
 
 
 ## AJAX.PHP
-
+```
 <?= $this->include('template/header'); ?>
 
 <h1>Data Artikel</h1>
@@ -86,10 +84,10 @@ KELAS: TI.22.A5
 
 <?= $this->include('template/footer'); ?>
 
-
+```
 
 ## AJAXCONTROLLER.PHP
-
+```
 <?php
 namespace App\Controllers;
 use CodeIgniter\Controller;
@@ -120,4 +118,4 @@ $data = [
 return $this->response->setJSON($data);
 }
 }
-
+```
